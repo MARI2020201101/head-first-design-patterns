@@ -1,4 +1,4 @@
-package strategy;
+package com.mari.headfirstdesignpatterns.strategy;
 
 public interface QuackBehavior {
 

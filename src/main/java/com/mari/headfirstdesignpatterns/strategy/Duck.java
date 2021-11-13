@@ -1,5 +1,12 @@
-package strategy;
+package com.mari.headfirstdesignpatterns.strategy;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@Data
+@NoArgsConstructor
 public class Duck {
 
     private String name;
@@ -11,7 +18,7 @@ public class Duck {
 
     }
     public void display(){
-        System.out.printf("my name is %s %s",name,this.getClass().toString());
+        System.out.printf("my name is %s %s\n",name,this.getClass().toString());
     }
 
     public void fly(){
